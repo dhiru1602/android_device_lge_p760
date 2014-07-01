@@ -26,8 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from u2-common device
 $(call inherit-product, device/lge/p760/device.mk)
 # Inherit from u2-vendor device
-$(call inherit-product, vendor/lge/u2/u2-vendor-ducati.mk)
-$(call inherit-product, vendor/lge/u2/p760-vendor-nfc.mk)
+$(call inherit-product, vendor/lge/u2/p760-vendor-blobs.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_p760
